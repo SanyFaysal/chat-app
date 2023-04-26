@@ -1,7 +1,6 @@
 const express = require("express");
 const cors = require("cors");
 const app = express();
-const { MongoClient, ServerApiVersion, ObjectId } = require("mongodb");
 
 const http = require("http");
 const { Server } = require("socket.io");
